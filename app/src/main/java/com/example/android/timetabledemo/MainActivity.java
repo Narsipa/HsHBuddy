@@ -46,7 +46,7 @@ public class MainActivity extends AppCompatActivity {
 
         SimpleAdapter simpleAdapter = new SimpleAdapter(this, title, Beschreibung);
         listView.setAdapter(simpleAdapter);
-
+                                                                                                                //Test
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {                                      //Weiterleitung auf die jeweilige Activity
