@@ -1,0 +1,23 @@
+<android.support.v7.widget.CardView android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:background="@color/colorAccent"
+    android:elevation="4dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tvRaumplan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:layout_marginTop="6dp"
+            android:text="Raumplaene"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>
