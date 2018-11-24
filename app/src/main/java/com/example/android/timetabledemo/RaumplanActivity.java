@@ -1,6 +1,7 @@
 package com.example.android.timetabledemo;
 
 import android.content.Context;
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
@@ -51,9 +52,15 @@ public class RaumplanActivity extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 switch(position){
-                    case 0: break;
-                    case 1: break;
-                    case 2: break;
+                    case 0: Intent intent = new Intent(RaumplanActivity.this, PDFOpener.class);
+                        startActivity(intent);
+                        break;
+                    case 1: Intent intent1 = new Intent(RaumplanActivity.this, PDFOpener1.class);
+                        startActivity(intent1);
+                        break;
+                    case 2: Intent intent2 = new Intent(RaumplanActivity.this, PDFOpener2.class);
+                        startActivity(intent2);
+                        break;
                     default:break;
                 }
             }
