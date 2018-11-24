@@ -17,7 +17,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".WeekActivity" />
-        <activity android:name=".DayDetail"></activity>
+        <activity android:name=".DayDetail" />
+        <activity android:name=".RaumplanActivity"></activity>
     </application>
 
 </manifest>

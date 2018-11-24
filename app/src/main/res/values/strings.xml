@@ -133,4 +133,10 @@
         <item>10:45AM - 11:15AM</item>
         <item>11:15AM - 1:05PM</item>
     </string-array>
+
+    <string-array name="Raumplan">
+        <item> Erdgeschoss </item>
+        <item> 1. Obergeschoss </item>
+        <item> 2. Obergeschoss </item>
+    </string-array>
 </resources>

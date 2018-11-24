@@ -15,7 +15,7 @@ import android.widget.ListView;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
-//Kommentar Simon Test
+
     private Toolbar toolbar;
     private ListView listView;
 
@@ -63,6 +63,8 @@ public class MainActivity extends AppCompatActivity {
                         break;
                     }
                     case 3: {
+                        Intent intent = new Intent(MainActivity.this, RaumplanActivity.class);
+                        startActivity(intent);
                         break;
                     }
                 }
