@@ -11,6 +11,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
 
@@ -89,18 +90,20 @@ public class RaumplanActivity extends AppCompatActivity {
                 holder = new ViewHolder();
                 convertView = layoutInflater.inflate(resource, null);
                 holder.tvRaumplan = (TextView)convertView.findViewById(R.id.tvRaumplan);
+                holder.ivRaumplan = (ImageView)convertView.findViewById(R.id.ivRaumplan);
                 convertView.setTag(holder);
             }else{
                 holder = (ViewHolder)convertView.getTag();
             }
 
             holder.tvRaumplan.setText(raumplan[position]);
-
+            holder.ivRaumplan.setImageResource(R.drawable.pdf);
             return convertView;
         }
 
         class ViewHolder{
             private TextView tvRaumplan;
+            private ImageView ivRaumplan;
         }
     }
 

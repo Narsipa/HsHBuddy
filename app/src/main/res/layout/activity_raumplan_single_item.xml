@@ -8,6 +8,16 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
 
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="105dp"
+            android:id="@+id/ivRaumplan"
+            android:layout_marginLeft="11dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="11dp" />
+
         <TextView
             android:id="@+id/tvRaumplan"
             android:layout_width="wrap_content"
@@ -15,8 +25,9 @@
             android:layout_marginLeft="6dp"
             android:layout_marginTop="6dp"
             android:text="Raumplaene"
-            android:textSize="24sp"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            android:layout_toRightOf="@+id/ivRaumplan"
+            android:textSize="24sp"/>
 
     </RelativeLayout>
 
