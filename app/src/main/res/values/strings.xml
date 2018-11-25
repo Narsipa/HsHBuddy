@@ -25,113 +25,105 @@
     </string-array>
 
     <string-array name="Montag">
-        <item>Mixed Signal Design</item>
-        <item>Analog Wave Propogation</item>
-        <item>Break</item>
-        <item>CT2 Lab - A1\nMSD Lab - A2</item>
-        <item>Break</item>
-        <item>Cluster Elective</item>
-        <item>Cluster Elective Lab/Tut</item>
+        <item>BWL 1 Buchführung</item>
+        <item>WI-Grundlagen</item>
+        <item>WI-Grundlagen</item>
+        <item>Programmieren Tutorium</item>
+        <item>Frei</item>
+        <item>Frei</item>
     </string-array>
 
     <string-array name="Dienstag">
-        <item>Computer Communication Networks</item>
-        <item>Communication Theory - 2</item>
-        <item>Break</item>
-        <item>Computer Communication Networks</item>
-        <item>Mixed Signal Design</item>
-        <item>Break</item>
-        <item> CT2 Lab - A4\nMSD Lab - A1</item>
+        <item>Frei</item>
+        <item>Wirtschaftsenglisch</item>
+        <item>Wirtschaftsenglisch</item>
+        <item>Mathematik 1 - Tutorium</item>
+        <item>Frei</item>
+        <item>Frei</item>
     </string-array>
 
     <string-array name="Mittwoch">
-        <item>Antenna and Wave Propagation</item>
-        <item>Computer Communication Networks</item>
-        <item>Break</item>
-        <item>Cluster Elective</item>
-        <item>Department Elective</item>
-        <item>Break</item>
-        <item> AWP Tutorial</item>
+        <item>Frei</item>
+        <item>BWL 1 - VWL - Grundlagen</item>
+        <item>BWL 1 Grundsatzentscheidungen</item>
+        <item>Programmieren VL</item>
+        <item>Frei</item>
+        <item>Frei</item>
     </string-array>
 
     <string-array name="Donnerstag">
-        <item>Antenna and Wave Propagation </item>
-        <item>Communication Theory - 2</item>
-        <item>Break</item>
-        <item>Cluster Elective</item>
-        <item>Department Elective</item>
-        <item>Break</item>
-        <item> CT2 Lab - A2\nMSD Lab - A3</item>
+        <item>Frei</item>
+        <item>Programmieren Übung</item>
+        <item>Mathematik 1 VL</item>
+        <item>Frei</item>
+        <item>Frei</item>
+        <item>Frei</item>
     </string-array>
 
     <string-array name="Freitag">
-        <item> CT2 Lab - A3\nMSD Lab - A4</item>
-        <item>Break</item>
-        <item>Mixed Signal Design</item>
-        <item>Communication Theory - 2</item>
-        <item>Break</item>
-        <item>Department Elective Tut</item>
+        <item>Einführung Informatik</item>
+        <item>Mathematische Grundlagen der Informatik</item>
+        <item>BWL 1 Produktion und Logistik</item>
+        <item>Einführung Informatik - Tutorium</item>
+        <item>Frei</item>
+        <item>Frei</item>
     </string-array>
 
     <string-array name="Samstag">
-        <item>Self Study</item>
-        <item>Break</item>
-        <item>Self Study</item>
+        <item>Selbststudium</item>
+        <item>Pause</item>
+        <item>Selbststudium</item>
     </string-array>
 
     <string-array name="time1">
-        <item>8:55AM - 9:50AM</item>
-        <item>9:50AM - 10:45AM</item>
-        <item>10:45AM - 11:15AM</item>
-        <item>11:15AM - 1:05PM</item>
-        <item>1:05PM - 2:00PM</item>
-        <item>2:00PM - 2:55PM</item>
-        <item>2:55PM - 4:45PM</item>
+        <item>8:00 - 9:45</item>
+        <item>10:00 - 11:45</item>
+        <item>12:30 - 14:00</item>
+        <item>14:15 - 15:45</item>
+        <item>16:00 - 17:45</item>
+        <item>18:00 - 19:45</item>
     </string-array>
 
     <string-array name="time2">
-        <item>8:55AM - 9:50AM</item>
-        <item>9:50AM - 10:45AM</item>
-        <item>10:45AM - 11:15AM</item>
-        <item>11:15AM - 12:10PM</item>
-        <item>12:10PM - 1:05PM</item>
-        <item>1:05PM - 2:00PM</item>
-        <item>2:00PM - 3:50PM</item>
+        <item>8:00 - 9:45</item>
+        <item>10:00 - 11:45</item>
+        <item>12:30 - 14:00</item>
+        <item>14:15 - 15:45</item>
+        <item>16:00 - 17:45</item>
+        <item>18:00 - 19:45</item>
     </string-array>
 
     <string-array name="time3">
-        <item>8:55AM - 9:50AM</item>
-        <item>9:50AM - 10:45AM</item>
-        <item>10:45AM - 11:15AM</item>
-        <item>11:15AM - 12:10PM</item>
-        <item>12:10PM - 1:05PM</item>
-        <item>1:05PM - 2:00PM</item>
-        <item>2:00PM - 3:50PM</item>
+        <item>8:00 - 9:45</item>
+        <item>10:00 - 11:45</item>
+        <item>12:30 - 14:00</item>
+        <item>14:15 - 15:45</item>
+        <item>16:00 - 17:45</item>
+        <item>18:00 - 19:45</item>
     </string-array>
 
     <string-array name="time4">
-        <item>8:55AM - 9:50AM</item>
-        <item>9:50AM - 10:45AM</item>
-        <item>10:45AM - 11:15AM</item>
-        <item>11:15AM - 12:10PM</item>
-        <item>12:10PM - 1:05PM</item>
-        <item>1:05PM - 2:00PM</item>
-        <item>2:00PM - 3:50PM</item>
+        <item>8:00 - 9:45</item>
+        <item>10:00 - 11:45</item>
+        <item>12:30 - 14:00</item>
+        <item>14:15 - 15:45</item>
+        <item>16:00 - 17:45</item>
+        <item>18:00 - 19:45</item>
     </string-array>
 
     <string-array name="time5">
-        <item>8:55AM - 10:45AM</item>
-        <item>10:45AM - 11:15AM</item>
-        <item>11:15AM - 12:10PM</item>
-        <item>12:10PM - 1:05PM</item>
-        <item>1:05PM - 2:00PM</item>
-        <item>2:00PM - 3:50PM</item>
+        <item>8:00 - 9:45</item>
+        <item>10:00 - 11:45</item>
+        <item>12:30 - 14:00</item>
+        <item>14:15 - 15:45</item>
+        <item>16:00 - 17:45</item>
+        <item>18:00 - 19:45</item>
     </string-array>
 
     <string-array name="time6">
-        <item>8:55AM - 10:45AM</item>
-        <item>10:45AM - 11:15AM</item>
-        <item>11:15AM - 1:05PM</item>
+        <item>8:30 - 11:30</item>
+        <item>11:30 - 12:30</item>
+        <item>12:30 - 14:00</item>
     </string-array>
 
     <string-array name="Raumplan">
