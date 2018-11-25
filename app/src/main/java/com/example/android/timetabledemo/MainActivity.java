@@ -120,7 +120,7 @@ public class MainActivity extends AppCompatActivity {
             if(titleArray[position].equalsIgnoreCase("Stundenplan")){
                 imageView.setImageResource(R.drawable.timetable);
             }else if(titleArray[position].equalsIgnoreCase("Mensa")){
-                imageView.setImageResource(R.drawable.book);
+                imageView.setImageResource(R.drawable.mensa);
             }else if(titleArray[position].equalsIgnoreCase("Schwarzes Brett")){
                 imageView.setImageResource(R.drawable.contact);
             }else{
