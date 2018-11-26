@@ -118,13 +118,13 @@ public class MainActivity extends AppCompatActivity {
             Beschreibung.setText(BeschreibungArray[position]);
 
             if(titleArray[position].equalsIgnoreCase("Stundenplan")){
-                imageView.setImageResource(R.drawable.timetable);
+                imageView.setImageResource(R.drawable.stundenplan);
             }else if(titleArray[position].equalsIgnoreCase("Mensa")){
-                imageView.setImageResource(R.drawable.mensa);
+                imageView.setImageResource(R.drawable.mensan);
             }else if(titleArray[position].equalsIgnoreCase("Schwarzes Brett")){
-                imageView.setImageResource(R.drawable.contact);
+                imageView.setImageResource(R.drawable.schwarzesb);
             }else{
-                imageView.setImageResource(R.drawable.settings);
+                imageView.setImageResource(R.drawable.gebaeude);
             }
 
             return convertView;
