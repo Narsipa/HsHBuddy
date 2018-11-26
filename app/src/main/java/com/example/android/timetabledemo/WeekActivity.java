@@ -90,11 +90,6 @@ public class WeekActivity extends AppCompatActivity {
                         sharedPreferences.edit().putString(SEL_DAY, "Freitag").apply();
                         break;
                     }
-                    case 5: {
-                        startActivity(new Intent(WeekActivity.this, DayDetail.class));
-                        sharedPreferences.edit().putString(SEL_DAY, "Samstag").apply();
-                        break;
-                    }
                     default:break;
                 }
             }

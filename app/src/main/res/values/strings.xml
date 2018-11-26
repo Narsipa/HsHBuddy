@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">TimeTable Demo</string>
+    <string name="app_name">HsH Buddy</string>
 
     <string-array name="Main">
         <item> Stundenplan </item>
@@ -11,7 +11,7 @@
     <string-array name="Beschreibung">
         <item> Erstelle deinen persönlichen Stundenplan. </item>
         <item> Was gibt es heute in der Mensa? </item>
-        <item> Alle wichtigen Änderungen und andere Infos zur Fakultät 4 </item>
+        <item> Alle wichtigen Änderungen und andere Infos zur Fakultät 4. </item>
         <item> Du weißt nicht wo Du hin musst? Dein Buddy zeigt dir den Weg. </item>
     </string-array>
 
@@ -21,7 +21,6 @@
         <item> Mittwoch </item>
         <item> Donnerstag </item>
         <item> Freitag </item>
-        <item> Samstag </item>
     </string-array>
 
     <string-array name="Montag">
