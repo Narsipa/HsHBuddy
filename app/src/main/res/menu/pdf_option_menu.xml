@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/pdf"
+        android:title="EG"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/pdf1"
+        android:title="1.OG"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/pdf2"
+        android:title="2.OG"
+        app:showAsAction="never" />
+
+
+</menu>
