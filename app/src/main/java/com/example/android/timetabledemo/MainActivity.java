@@ -1,5 +1,6 @@
 package com.example.android.timetabledemo;
 
+import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
@@ -57,6 +58,8 @@ public class MainActivity extends AppCompatActivity {
                         break;
                     }
                     case 1: {
+                        Intent intent = new Intent(MainActivity.this, RSSActivity.class);
+                        startActivity(intent);
                         break;
                     }
                     case 2: {
