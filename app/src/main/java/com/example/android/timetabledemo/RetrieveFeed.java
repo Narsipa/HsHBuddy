@@ -18,7 +18,7 @@ import java.util.ArrayList;
 public class RetrieveFeed extends AsyncTask {
     URL url;
     ArrayList<String> headlines = new ArrayList();
-    ArrayList<String> links = new ArrayList();
+    ArrayList<String> preis = new ArrayList();
 
     @Override
     protected Object doInBackground(Object[] objects) {
@@ -26,7 +26,7 @@ public class RetrieveFeed extends AsyncTask {
 
 
         try {
-            url = new URL("https://politepol.com/feed/42168");
+            url = new URL("https://politepol.com/feed/42972");
 
             XmlPullParserFactory factory = XmlPullParserFactory.newInstance();
             factory.setNamespaceAware(false);
@@ -48,6 +48,9 @@ public class RetrieveFeed extends AsyncTask {
                     } else if (xpp.getName().equalsIgnoreCase("title")) {
                         if (insideItem)
                             headlines.add(xpp.nextText());
+                    } else if (xpp.getName().equalsIgnoreCase("description")){
+                        if (insideItem)
+                            preis.add(xpp.nextText());
                     }
                 } else if (eventType == XmlPullParser.END_TAG && xpp.getName().equalsIgnoreCase("item")) {
                     insideItem = false;
@@ -67,19 +70,27 @@ public class RetrieveFeed extends AsyncTask {
         return headlines;
     }
 
-
-public InputStream getInputStream(URL url) {
+//Möglicherweise Überflüßig
+/*public InputStream getInputStream(URL url) {
         try {
             return url.openConnection().getInputStream();
         } catch (IOException e) {
             return null;
         }
-    }
+    }*/
 
     public ArrayList<String> heads() {
         return headlines;
     }
+
+    public ArrayList<String> preis() {
+        return preis;
+    }
+
 }
+
+
+
 
 
 //      } else if (xpp.getName().equalsIgnoreCase("li")) {

@@ -63,12 +63,12 @@ public class MainActivity extends AppCompatActivity {
                         break;
                     }
                     case 2: {
-                        break;
-                    }
-                    case 3: {
                         Intent intent = new Intent(MainActivity.this, RaumplanActivity.class);
                         startActivity(intent);
                         break;
+                    }
+                    case 3: {
+
                     }
                 }
             }
