@@ -4,14 +4,13 @@
     <string-array name="Main">
         <item> Stundenplan </item>
         <item> Mensa </item>
-        <item> Schwarzes Brett </item>
         <item> Raumpläne </item>
     </string-array>
 
     <string-array name="Beschreibung">
         <item> Erstelle deinen persönlichen Stundenplan. </item>
         <item> Was gibt es heute in der Mensa? </item>
-        <item> Alle wichtigen Änderungen und andere Infos zur Fakultät 4. </item>
+        <item> Du weißt nicht wo Du hin musst? Dein Buddy zeigt dir den Weg. </item>
         <item> Du weißt nicht wo Du hin musst? Dein Buddy zeigt dir den Weg. </item>
     </string-array>
 
