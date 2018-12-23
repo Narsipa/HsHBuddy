@@ -63,7 +63,7 @@ public class MainActivity extends AppCompatActivity {
                         break;
                     }
                     case 2: {
-                        Intent intent = new Intent(MainActivity.this, RaumplanActivity.class);
+                        Intent intent = new Intent(MainActivity.this, PDFOpener.class);
                         startActivity(intent);
                         break;
                     }
