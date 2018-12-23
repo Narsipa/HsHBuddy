@@ -18,7 +18,6 @@
         </activity>
         <activity android:name=".WeekActivity" />
         <activity android:name=".DayDetail" />
-        <activity android:name=".RaumplanActivity" />
         <activity android:name=".PDFOpener" />
         <activity android:name=".PDFOpener1" />
         <activity android:name=".PDFOpener2"></activity>

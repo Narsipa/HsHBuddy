@@ -130,4 +130,14 @@
         <item> 1. Obergeschoss </item>
         <item> 2. Obergeschoss </item>
     </string-array>
+
+    <string-array name="Montag1">
+        <item>BWL 2</item>
+        <item>WI</item>
+        <item>WI</item>
+        <item>Mathe 1</item>
+        <item>Frei</item>
+        <item>BI</item>
+    </string-array>
+
 </resources>

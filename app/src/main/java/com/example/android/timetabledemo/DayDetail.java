@@ -20,6 +20,7 @@ public class DayDetail extends AppCompatActivity {
     private ListView listView;
     private android.support.v7.widget.Toolbar toolbar;
     public static String[] Montag;
+    public static String[] Montag1;
     public static String[] Dienstag;
     public static String[] Mittwoch;
     public static String[] Donnerstag;
@@ -57,7 +58,10 @@ public class DayDetail extends AppCompatActivity {
 
     private void setupListView(){
 
+        int zahl = (int)((Math.random()) * 6 + 1);
+
         Montag = getResources().getStringArray(R.array.Montag);
+        Montag1 = getResources().getStringArray(R.array.Montag1);
         Dienstag = getResources().getStringArray(R.array.Dienstag);
         Mittwoch = getResources().getStringArray(R.array.Mittwoch);
         Donnerstag = getResources().getStringArray(R.array.Donnerstag);
@@ -74,8 +78,11 @@ public class DayDetail extends AppCompatActivity {
         String selected_day = WeekActivity.sharedPreferences.getString(WeekActivity.SEL_DAY, null);
 
         if(selected_day.equalsIgnoreCase("Montag")){
-            PreferredDay = Montag;
             PreferredTime = Time1;
+            if (zahl < 3){
+                PreferredDay = Montag;
+            } else PreferredDay = Montag1;
+
         }else if(selected_day.equalsIgnoreCase("Dienstag")){
             PreferredDay = Dienstag;
             PreferredTime = Time2;
