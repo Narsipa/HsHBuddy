@@ -15,6 +15,8 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.support.v7.widget.Toolbar;
 
+import com.github.barteksc.pdfviewer.util.ArrayUtils;
+
 import org.xmlpull.v1.XmlPullParser;
 import org.xmlpull.v1.XmlPullParserException;
 import org.xmlpull.v1.XmlPullParserFactory;
@@ -97,7 +99,7 @@ public class RSSActivity extends AppCompatActivity {
         protected void onPreExecute() {
             super.onPreExecute();
 
-            progressDialog.setMessage("Speiseplan wird abgerufen, einen Moment");
+            progressDialog.setMessage("Speiseplan wird abgerufen...");
             progressDialog.show();
         }
 
@@ -206,6 +208,7 @@ public class RSSActivity extends AppCompatActivity {
             progressDialog.dismiss();
         }
     }
+
     public boolean onOptionsItemSelected(MenuItem item) {
         switch(item.getItemId()){
             case android.R.id.home : {

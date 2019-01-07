@@ -1,7 +1,9 @@
 package com.example.android.timetabledemo;
 
 import android.app.Activity;
+import android.app.AlertDialog;
 import android.content.Context;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -14,11 +16,13 @@ import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
     private Toolbar toolbar;
     private ListView listView;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -49,8 +53,9 @@ public class MainActivity extends AppCompatActivity {
         listView.setAdapter(simpleAdapter);
                                                                                                                 //Test.
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            AlertDialog.Builder msgBox = new AlertDialog.Builder(MainActivity.this);
             @Override
-            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {                                      //Weiterleitung auf die jeweilige Activity
+            public void onItemClick(AdapterView<?> parent, View view, final int position, long id) {                                      //Weiterleitung auf die jeweilige Activity
                 switch(position){
                     case 0: {
                         Intent intent = new Intent(MainActivity.this, WeekActivity.class);
@@ -58,8 +63,26 @@ public class MainActivity extends AppCompatActivity {
                         break;
                     }
                     case 1: {
-                        Intent intent = new Intent(MainActivity.this, RSSActivity.class);
-                        startActivity(intent);
+                        if(InternetCheck.isInternetAvailable(MainActivity.this))
+                        {
+                            Intent intent = new Intent(MainActivity.this, RSSActivity.class);
+                            startActivity(intent);}
+                        else{
+                            msgBox.setMessage("Überprüfe deine Internetverbindung und probiere es nochmal");
+                            msgBox.setNeutralButton("Alles klar!", new DialogInterface.OnClickListener() {
+                                @Override
+                                public void onClick(DialogInterface dialog, int i) {
+                                    if(InternetCheck.isInternetAvailable(MainActivity.this))
+                                    {
+                                        Intent intent = new Intent(MainActivity.this, RSSActivity.class);
+                                        startActivity(intent);}
+
+                                }
+
+                            });
+
+                            msgBox.show();
+                        }
                         break;
                     }
                     case 2: {
