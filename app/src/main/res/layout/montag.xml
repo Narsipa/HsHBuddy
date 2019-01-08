@@ -108,7 +108,7 @@
 
     <EditText
         android:id="@+id/moFach5"
-        android:layout_width="304dp"
+        android:layout_width="300dp"
         android:layout_height="46dp"
         android:layout_marginTop="16dp"
         android:ems="10"
@@ -119,7 +119,7 @@
 
     <EditText
         android:id="@+id/moFach6"
-        android:layout_width="304dp"
+        android:layout_width="300dp"
         android:layout_height="46dp"
         android:layout_marginTop="16dp"
         android:ems="10"
