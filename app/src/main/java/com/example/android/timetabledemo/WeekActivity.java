@@ -66,28 +66,28 @@ public class WeekActivity extends AppCompatActivity {
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 switch(position){
                     case 0: {
-                        startActivity(new Intent(WeekActivity.this, DayDetail.class));
-                        sharedPreferences.edit().putString(SEL_DAY, "Montag").apply();
+                        Intent intent = new Intent(WeekActivity.this, MontagActivity.class);
+                        startActivity(intent);
                         break;
                     }
                     case 1: {
-                        startActivity(new Intent(WeekActivity.this, DayDetail.class));
-                        sharedPreferences.edit().putString(SEL_DAY, "Dienstag").apply();
+                        Intent intent = new Intent(WeekActivity.this, DienstagActivity.class);
+                        startActivity(intent);
                         break;
                     }
                     case 2: {
-                        startActivity(new Intent(WeekActivity.this, DayDetail.class));
-                        sharedPreferences.edit().putString(SEL_DAY, "Mittwoch").apply();
+                        Intent intent = new Intent(WeekActivity.this, MittwochActivity.class);
+                        startActivity(intent);
                         break;
                     }
                     case 3: {
-                        startActivity(new Intent(WeekActivity.this, DayDetail.class));
-                        sharedPreferences.edit().putString(SEL_DAY, "Donnerstag").apply();
+                        Intent intent = new Intent(WeekActivity.this, DonnerstagActivity.class);
+                        startActivity(intent);
                         break;
                     }
                     case 4: {
-                        startActivity(new Intent(WeekActivity.this, DayDetail.class));
-                        sharedPreferences.edit().putString(SEL_DAY, "Freitag").apply();
+                        Intent intent = new Intent(WeekActivity.this, FreitagActivity.class);
+                        startActivity(intent);
                         break;
                     }
                     default:break;
