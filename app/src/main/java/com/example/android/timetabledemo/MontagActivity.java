@@ -100,52 +100,6 @@ public class MontagActivity extends AppCompatActivity {
                 Toast.LENGTH_LONG).show();
     }
 
-  /*  public void clear(View view) {
-        fach1 = (EditText) findViewById(R.id.moFach1);
-        fach2 = (EditText) findViewById(R.id.moFach2);
-        fach3 = (EditText) findViewById(R.id.moFach3);
-        fach4 = (EditText) findViewById(R.id.moFach4);
-        fach5 = (EditText) findViewById(R.id.moFach5);
-        fach6 = (EditText) findViewById(R.id.moFach6);
-        fach1.setText("");
-        fach2.setText("");
-        fach3.setText("");
-        fach4.setText("");
-        fach5.setText("");
-        fach6.setText("");
-    }
-
-    public void Get(View view) {
-        fach1 = (EditText) findViewById(R.id.moFach1);
-        fach2 = (EditText) findViewById(R.id.moFach2);
-        fach3 = (EditText) findViewById(R.id.moFach3);
-        fach4 = (EditText) findViewById(R.id.moFach4);
-        fach5 = (EditText) findViewById(R.id.moFach5);
-        fach6 = (EditText) findViewById(R.id.moFach6);
-
-        sharedpreferences = getSharedPreferences(mypreference,
-                Context.MODE_PRIVATE);
-
-        if (sharedpreferences.contains(Fach1)) {
-            fach1.setText(sharedpreferences.getString(Fach1, ""));
-        }
-        if (sharedpreferences.contains(Fach2)) {
-            fach2.setText(sharedpreferences.getString(Fach2, ""));
-        }
-        if (sharedpreferences.contains(Fach3)) {
-            fach3.setText(sharedpreferences.getString(Fach3, ""));
-        }
-        if (sharedpreferences.contains(Fach4)) {
-            fach4.setText(sharedpreferences.getString(Fach4, ""));
-        }
-        if (sharedpreferences.contains(Fach5)) {
-            fach5.setText(sharedpreferences.getString(Fach5, ""));
-        }
-        if (sharedpreferences.contains(Fach6)) {
-            fach6.setText(sharedpreferences.getString(Fach6, ""));
-        }
-    }   */
-
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         switch(item.getItemId()){
