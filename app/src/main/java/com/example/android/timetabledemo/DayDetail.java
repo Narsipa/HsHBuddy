@@ -35,20 +35,14 @@ public class DayDetail extends AppCompatActivity {
         setContentView(R.layout.activity_day_detail);
 
         setupUIViews();
-      //  initToolbar();
         setupListView();
     }
 
     private void setupUIViews(){
         listView = (ListView)findViewById(R.id.lvDayDetail);
-    //    toolbar = (android.support.v7.widget.Toolbar) findViewById(R.id.ToolbarDayDetail);
     }
 
-    //private void initToolbar(){
-    //    setSupportActionBar(toolbar);
-    //    getSupportActionBar().setTitle(WeekActivity.sharedPreferences.getString(WeekActivity.SEL_DAY, null));
-    //    getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-    //}
+
 
     private void setupListView(){
 
