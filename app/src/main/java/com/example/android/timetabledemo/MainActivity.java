@@ -91,7 +91,9 @@ public class MainActivity extends AppCompatActivity {
                         break;
                     }
                     case 3: {
-
+                        Intent intent = new Intent(MainActivity.this, PruefungsplanOpener.class);
+                        startActivity(intent);
+                        break;
                     }
                 }
             }
@@ -147,10 +149,10 @@ public class MainActivity extends AppCompatActivity {
                 imageView.setImageResource(R.drawable.stundenplan);
             }else if(titleArray[position].equalsIgnoreCase("Mensa")){
                 imageView.setImageResource(R.drawable.mensan);
-            }else if(titleArray[position].equalsIgnoreCase("Schwarzes Brett")){
-                imageView.setImageResource(R.drawable.schwarzesb);
-            }else{
+            }else if(titleArray[position].equalsIgnoreCase("Raumpläne")){
                 imageView.setImageResource(R.drawable.gebaeude);
+            }else if(titleArray[position].equalsIgnoreCase("Prüfungsplan")){
+                imageView.setImageResource(R.drawable.schwarzesb);
             }
 
             return convertView;

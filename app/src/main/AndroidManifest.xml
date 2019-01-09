@@ -26,6 +26,7 @@
         <activity android:name=".PDFOpener" />
         <activity android:name=".PDFOpener1" />
         <activity android:name=".PDFOpener2" />
+        <activity android:name=".PruefungsplanOpener" />
     </application>
 
 </manifest>
