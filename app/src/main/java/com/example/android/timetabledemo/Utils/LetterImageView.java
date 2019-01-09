@@ -30,7 +30,7 @@ public class LetterImageView extends android.support.v7.widget.AppCompatImageVie
         mTextPaint.setColor(mTextColor);
         mBackgroundPaint = new Paint(Paint.ANTI_ALIAS_FLAG);
         mBackgroundPaint.setStyle(Paint.Style.FILL);
-        mBackgroundPaint.setColor(randomColor());
+       // mBackgroundPaint.setColor(randomColor());
     }
 
     public char getLetter() {
@@ -88,9 +88,9 @@ public class LetterImageView extends android.support.v7.widget.AppCompatImageVie
         return 8 * getResources().getDisplayMetrics().density;
     }
 
-    private int randomColor() {
+  /*  private int randomColor() {
         Random random = new Random();
         String[] colorsArr = getResources().getStringArray(R.array.colors);
         return Color.parseColor(colorsArr[random.nextInt(colorsArr.length)]);
-    }
+    }    */
 }

@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:layout_editor_absoluteY="25dp">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/ToolbarMittwoch"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        android:background="@color/colorPrimary"
+        app:titleTextColor="@color/white">
+
+    </android.support.v7.widget.Toolbar>
+
+    <EditText
+        android:id="@+id/miFach1"
+        android:layout_width="300dp"
+        android:layout_height="46dp"
+        android:layout_below="@+id/ToolbarMittwoch"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:hint="Block 1"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ToolbarMittwoch" />
+
+    <EditText
+        android:id="@+id/miFach2"
+        android:layout_width="300dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="Block 2"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="@+id/miFach1"
+        app:layout_constraintTop_toBottomOf="@+id/miFach1" />
+
+    <EditText
+        android:id="@+id/miFach3"
+        android:layout_width="300dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="Block 3"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="@+id/miFach1"
+        app:layout_constraintTop_toBottomOf="@+id/miFach2" />
+
+    <EditText
+        android:id="@+id/miFach4"
+        android:layout_width="300dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="Block 4"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="@+id/miFach1"
+        app:layout_constraintTop_toBottomOf="@+id/miFach3" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:text="8:00 - 9:45"
+        android:textSize="10sp"
+        android:textStyle="bold"
+        app:layout_constraintBaseline_toBaselineOf="@+id/miFach1"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_constraintBaseline_toBaselineOf="@+id/miFach1" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="10:00 - 11:45"
+        android:textSize="10sp"
+        android:textStyle="bold"
+        app:layout_constraintBaseline_toBaselineOf="@+id/miFach2"
+        app:layout_constraintEnd_toEndOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="12:30 - 14:00"
+        android:textSize="10sp"
+        android:textStyle="bold"
+        app:layout_constraintBaseline_toBaselineOf="@+id/miFach3"
+        app:layout_constraintEnd_toEndOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="14:15 - 15:45"
+        android:textSize="10sp"
+        android:textStyle="bold"
+        app:layout_constraintBaseline_toBaselineOf="@+id/miFach4"
+        app:layout_constraintEnd_toEndOf="@+id/textView" />
+
+    <EditText
+        android:id="@+id/miFach5"
+        android:layout_width="304dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="Block 5"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="@+id/miFach1"
+        app:layout_constraintTop_toBottomOf="@+id/miFach4" />
+
+    <EditText
+        android:id="@+id/miFach6"
+        android:layout_width="304dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="Block 6"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="@+id/miFach1"
+        app:layout_constraintTop_toBottomOf="@+id/miFach5" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="16:00 - 17:45"
+        android:textSize="10sp"
+        android:textStyle="bold"
+        app:layout_constraintBaseline_toBaselineOf="@+id/miFach5"
+        app:layout_constraintEnd_toEndOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="18:00 - 19:30"
+        android:textSize="10sp"
+        android:textStyle="bold"
+        app:layout_constraintBaseline_toBaselineOf="@+id/miFach6"
+        app:layout_constraintEnd_toEndOf="@+id/textView" />
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="16dp"
+        android:onClick="Save"
+        android:text="speichern"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

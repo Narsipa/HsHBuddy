@@ -5,14 +5,12 @@
         <item> Stundenplan </item>
         <item> Mensa </item>
         <item> Raumpläne </item>
-        <item> Prüfungsplan </item>
     </string-array>
 
     <string-array name="Beschreibung">
         <item> Erstelle deinen persönlichen Stundenplan. </item>
         <item> Was gibt es heute in der Mensa? </item>
-        <item> Du weißt nicht wo Du hin musst? Dein Buddy zeigt dir den Weg. </item>
-        <item> Schau Dir an wann Du welche Prüfungen absolvieren musst. </item>
+        <item> Du weißt nicht wo du hin musst? Dein Buddy zeigt dir den Weg. </item>
     </string-array>
 
     <string-array name="Week">
@@ -23,193 +21,10 @@
         <item> Freitag </item>
     </string-array>
 
-    <string-array name="Montag1">
-        <item>WI-Grundlagen</item>
-        <item>WI-Grundlagen</item>
-        <item>Wirtschaftsmathematik VL</item>
-        <item>Wirtschaftsmathematik Tutorium</item>
-        <item>Frei</item>
-        <item>Frei</item>
-    </string-array>
-
-    <string-array name="Montag2">
-        <item>Wirtschaftsenglisch Teil 1</item>
-        <item>Wirtschaftsenglisch Teil 1</item>
-        <item>Statistik</item>
-        <item>Internes Rechnungswesen</item>
-        <item>BWL 2 Controlling</item>
-        <item>Frei</item>
-    </string-array>
-
-    <string-array name="Montag3">
-        <item>Frei</item>
-        <item>Wirtschaftsenglisch Teil 2</item>
-        <item>Wissenschaftliches Arbeiten</item>
-        <item>Wissenschaftliches Arbeiten</item>
-        <item>Frei</item>
-        <item>Frei</item>
-    </string-array>
-
-    <string-array name="Dienstag1">
-        <item>Einführung Informatik</item>
-        <item>Math. Grundlagen der Informatik</item>
-        <item>Frei</item>
-        <item>Frei</item>
-        <item>Frei</item>
-        <item>Frei</item>
-    </string-array>
-
-    <string-array name="Dienstag2">
-        <item>Wirtschaftsenglisch Teil 1</item>
-        <item>Wirtschaftsenglisch Teil 1</item>
-        <item>Frei</item>
-        <item>Frei</item>
-        <item>Frei</item>
-        <item>Frei</item>
-    </string-array>
-
-    <string-array name="Dienstag3">
-        <item>Präsentation und Kommunikation</item>
-        <item>Präsentation und Kommunikation</item>
-        <item>Präsentation und Kommunikation</item>
-        <item>Frei</item>
-        <item>Praxis Kolloquium</item>
-        <item>Praxis Kolloquium</item>
-    </string-array>
-
-    <string-array name="Mittwoch">
-        <item>Frei</item>
-        <item>BWL 1 - VWL-Grundlagen</item>
-        <item>BWL 1 Grundsatzentscheidungen</item>
-        <item>Programmieren VL</item>
-        <item>Frei</item>
-        <item>Frei</item>
-    </string-array>
-
-    <string-array name="Donnerstag">
-        <item>Frei</item>
-        <item>Programmieren Übung</item>
-        <item>Mathematik 1 VL</item>
-        <item>Frei</item>
-        <item>Frei</item>
-        <item>Frei</item>
-    </string-array>
-
-    <string-array name="Freitag">
-        <item>Einführung Informatik</item>
-        <item>Mathematische Grundlagen der Informatik</item>
-        <item>BWL 1 Produktion und Logistik</item>
-        <item>Einführung Informatik - Tutorium</item>
-        <item>Frei</item>
-        <item>Frei</item>
-    </string-array>
-
-    <string-array name="Samstag">
-        <item>Selbststudium</item>
-        <item>Pause</item>
-        <item>Selbststudium</item>
-    </string-array>
-
-    <string-array name="time1">
-        <item>8:00 - 9:45</item>
-        <item>10:00 - 11:45</item>
-        <item>12:30 - 14:00</item>
-        <item>14:15 - 15:45</item>
-        <item>16:00 - 17:45</item>
-        <item>18:00 - 19:45</item>
-    </string-array>
-
-    <string-array name="time2">
-        <item>8:00 - 9:45</item>
-        <item>10:00 - 11:45</item>
-        <item>12:30 - 14:00</item>
-        <item>14:15 - 15:45</item>
-        <item>16:00 - 17:45</item>
-        <item>18:00 - 19:45</item>
-    </string-array>
-
-    <string-array name="time3">
-        <item>8:00 - 9:45</item>
-        <item>10:00 - 11:45</item>
-        <item>12:30 - 14:00</item>
-        <item>14:15 - 15:45</item>
-        <item>16:00 - 17:45</item>
-        <item>18:00 - 19:45</item>
-    </string-array>
-
-    <string-array name="time4">
-        <item>8:00 - 9:45</item>
-        <item>10:00 - 11:45</item>
-        <item>12:30 - 14:00</item>
-        <item>14:15 - 15:45</item>
-        <item>16:00 - 17:45</item>
-        <item>18:00 - 19:45</item>
-    </string-array>
-
-    <string-array name="time5">
-        <item>8:00 - 9:45</item>
-        <item>10:00 - 11:45</item>
-        <item>12:30 - 14:00</item>
-        <item>14:15 - 15:45</item>
-        <item>16:00 - 17:45</item>
-        <item>18:00 - 19:45</item>
-    </string-array>
-
-    <string-array name="time6">
-        <item>8:30 - 11:30</item>
-        <item>11:30 - 12:30</item>
-        <item>12:30 - 14:00</item>
-    </string-array>
-
     <string-array name="Raumplan">
         <item> Erdgeschoss </item>
         <item> 1. Obergeschoss </item>
         <item> 2. Obergeschoss </item>
-    </string-array>
-
-    <string-array name="RaumMontag1">
-        <item>0.11</item>
-        <item>0.11</item>
-        <item>0.11</item>
-        <item>0.21</item>
-        <item>----</item>
-        <item>----</item>
-    </string-array>
-
-    <string-array name="RaumDienstag1">
-        <item>0.11</item>
-        <item>0.11</item>
-        <item>----</item>
-        <item>----</item>
-        <item>----</item>
-        <item>----</item>
-    </string-array>
-
-    <string-array name="RaumMittwoch1">
-        <item>0.11</item>
-        <item>0.23</item>
-        <item>0.23</item>
-        <item>1.38</item>
-        <item>1.35</item>
-        <item>----</item>
-    </string-array>
-
-    <string-array name="RaumDonnerstag1">
-        <item>0.21</item>
-        <item>0.23</item>
-        <item>0.23</item>
-        <item>1.38</item>
-        <item>1.35</item>
-        <item>----</item>
-    </string-array>
-
-    <string-array name="RaumFreitag1">
-        <item>0.21</item>
-        <item>0.23</item>
-        <item>0.23</item>
-        <item>1.38</item>
-        <item>1.35</item>
-        <item>----</item>
     </string-array>
 
 </resources>

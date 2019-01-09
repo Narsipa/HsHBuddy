@@ -26,7 +26,13 @@
         <activity android:name=".PDFOpener" />
         <activity android:name=".PDFOpener1" />
         <activity android:name=".PDFOpener2" />
-        <activity android:name=".PruefungsplanOpener" />
+        <activity android:name=".MontagActivity"
+            android:windowSoftInputMode="adjustPan|adjustResize"/>
+        <activity android:name=".DienstagActivity" />
+        <activity android:name=".MittwochActivity" />
+        <activity android:name=".DonnerstagActivity" />
+        <activity android:name=".FreitagActivity" />
+
     </application>
 
 </manifest>
