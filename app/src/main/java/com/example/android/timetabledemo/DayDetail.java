@@ -52,16 +52,10 @@ public class DayDetail extends AppCompatActivity {
 
     private void setupListView(){
 
-        int zahl = (int)((Math.random()) * 6 + 1);
-
-
         String selected_day = WeekActivity.sharedPreferences.getString(WeekActivity.SEL_DAY, null);
 
         if(selected_day.equalsIgnoreCase("Montag")){
-            if (zahl < 3){
                 PreferredDay = Montag;
-            }
-
         }else if(selected_day.equalsIgnoreCase("Dienstag")){
             PreferredDay = Dienstag;
         }else if(selected_day.equalsIgnoreCase("Mittwoch")){
