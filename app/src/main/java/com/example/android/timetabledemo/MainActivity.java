@@ -151,7 +151,7 @@ public class MainActivity extends AppCompatActivity {
                 imageView.setImageResource(R.drawable.mensan);
             }else if(titleArray[position].equalsIgnoreCase("Raumpläne")){
                 imageView.setImageResource(R.drawable.gebaeude);
-            }else if(titleArray[position].equalsIgnoreCase("Prüfungsplan")){
+            }else if(titleArray[position].equalsIgnoreCase("Prüfungspläne")){
                 imageView.setImageResource(R.drawable.schwarzesb);
             }
 
