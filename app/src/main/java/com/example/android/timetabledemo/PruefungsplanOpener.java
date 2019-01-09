@@ -1,6 +1,6 @@
 package com.example.android.timetabledemo;
 
-import android.content.Intent;
+
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
@@ -34,13 +34,30 @@ public class PruefungsplanOpener extends AppCompatActivity {
 
     private void initToolbar(){
         setSupportActionBar(toolbar);
-        getSupportActionBar().setTitle("Prüfungsplan");
+        getSupportActionBar().setTitle("1. Studienabschnitt");
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        MenuInflater inflater = getMenuInflater();
+        inflater.inflate(R.menu.pruefungsplan_auswahl_menu, menu);
+        return true;
     }
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         switch(item.getItemId()){
+            case R.id.abschnitt_1: {
+                myPDFViewer.fromAsset("Pruefungsplan_1.pdf").load();
+                getSupportActionBar().setTitle("1. Studienabschnitt");
+                break;
+            }
+            case R.id.abschnitt_2: {
+                myPDFViewer.fromAsset("Pruefungsplan_2.pdf").load();
+                getSupportActionBar().setTitle("2. Studienabschnitt");
+                break;
+            }
             case android.R.id.home : {
                 onBackPressed();
             }

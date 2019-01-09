@@ -3,12 +3,10 @@ package com.example.android.timetabledemo;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
-import android.support.annotation.LayoutRes;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
 import android.view.LayoutInflater;
 import android.view.Menu;
@@ -18,15 +16,11 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
-import android.widget.BaseAdapter;
-import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.android.timetabledemo.Utils.LetterImageView;
-
-import org.w3c.dom.Text;
 
 public class WeekActivity extends AppCompatActivity {
 
@@ -34,7 +28,6 @@ public class WeekActivity extends AppCompatActivity {
     private ListView listView;
     public static SharedPreferences sharedPreferences;
     public static String SEL_DAY;
-    public static int semester = 1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -56,13 +49,6 @@ public class WeekActivity extends AppCompatActivity {
         setSupportActionBar(toolbar);
         getSupportActionBar().setTitle("Woche");
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-    }
-
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        MenuInflater inflater = getMenuInflater();
-        inflater.inflate(R.menu.day_detail_semester_menu, menu);
-        return true;
     }
 
     private void setupListView(){
@@ -150,34 +136,10 @@ public class WeekActivity extends AppCompatActivity {
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         switch(item.getItemId()){
-            case R.id.semester1: {
-                semester = 1;
-                Toast.makeText(this, "1. Semester", Toast.LENGTH_SHORT).show();
-                break;
-            }
-            case R.id.semester2: {
-                semester = 2;
-                Toast.makeText(this, "2. Semester", Toast.LENGTH_SHORT).show();
-                break;
-            }
-
-            case R.id.semester3: {
-                semester = 3;
-                Toast.makeText(this, "3. Semester", Toast.LENGTH_SHORT).show();
-                break;
-            }
             case android.R.id.home : {
                 onBackPressed();
             }
-            default:
-                semester = 1;
-                break;
-
         }
         return super.onOptionsItemSelected(item);
-    }
-
-    public int getSemester() {
-        return semester;
     }
 }
