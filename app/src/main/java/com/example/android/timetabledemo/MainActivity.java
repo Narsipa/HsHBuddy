@@ -1,6 +1,5 @@
 package com.example.android.timetabledemo;
 
-import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.Context;
 import android.content.DialogInterface;
@@ -16,7 +15,6 @@ import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
-import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -86,7 +84,7 @@ public class MainActivity extends AppCompatActivity {
                         break;
                     }
                     case 2: {
-                        Intent intent = new Intent(MainActivity.this, PDFOpener.class);
+                        Intent intent = new Intent(MainActivity.this, RaumplanOpener.class);
                         startActivity(intent);
                         break;
                     }
