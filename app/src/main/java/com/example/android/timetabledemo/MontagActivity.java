@@ -35,20 +35,20 @@ public class MontagActivity extends AppCompatActivity {
         toolbar = (Toolbar) findViewById(R.id.ToolbarMontag);
     }
 
-  /*  private void initToolbar(){
+    private void initToolbar(){
         setSupportActionBar(toolbar);
         getSupportActionBar().setTitle("Montag");
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-    }    */
+    }
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
+        setContentView(R.layout.montag);
 
         setupUIViews();
-       //   initToolbar();
+        initToolbar();
 
-        setContentView(R.layout.montag);
+
         fach1 = (EditText) findViewById(R.id.moFach1);
         fach2 = (EditText) findViewById(R.id.moFach2);
         fach3 = (EditText) findViewById(R.id.moFach3);

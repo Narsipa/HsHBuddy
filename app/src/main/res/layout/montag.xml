@@ -11,69 +11,98 @@
         android:layout_width="match_parent"
         android:layout_height="?android:attr/actionBarSize"
         android:background="@color/colorPrimary"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:elevation="2dp"
         app:titleTextColor="@color/white">
 
     </android.support.v7.widget.Toolbar>
 
     <EditText
         android:id="@+id/moFach1"
-        android:layout_width="300dp"
-        android:layout_height="46dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="75dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
         android:ems="10"
         android:hint="Block 1"
         android:inputType="textPersonName"
         app:layout_constraintBottom_toTopOf="@+id/moFach2"
+        app:layout_constraintEnd_toStartOf="@+id/guideline"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/ToolbarMontag"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
         android:id="@+id/moFach2"
-        android:layout_width="300dp"
-        android:layout_height="46dp"
-        android:layout_marginTop="16dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
         android:ems="10"
         android:hint="Block 2"
         android:inputType="textPersonName"
-        app:layout_constraintStart_toStartOf="@+id/moFach1"
+        app:layout_constraintBottom_toTopOf="@+id/moFach3"
+        app:layout_constraintEnd_toStartOf="@+id/guideline"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/moFach1" />
 
     <EditText
         android:id="@+id/moFach3"
-        android:layout_width="300dp"
-        android:layout_height="46dp"
-        android:layout_marginTop="16dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
         android:ems="10"
         android:hint="Block 3"
         android:inputType="textPersonName"
-        app:layout_constraintStart_toStartOf="@+id/moFach1"
+        app:layout_constraintBottom_toTopOf="@+id/moFach4"
+        app:layout_constraintEnd_toStartOf="@+id/guideline"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/moFach2" />
 
     <EditText
         android:id="@+id/moFach4"
-        android:layout_width="300dp"
-        android:layout_height="46dp"
-        android:layout_marginTop="16dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
         android:ems="10"
         android:hint="Block 4"
         android:inputType="textPersonName"
-        app:layout_constraintStart_toStartOf="@+id/moFach1"
+        app:layout_constraintBottom_toTopOf="@+id/moFach5"
+        app:layout_constraintEnd_toStartOf="@+id/guideline"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/moFach3" />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="8dp"
-        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
         android:text="8:00 - 9:45"
         android:textSize="11sp"
         android:textStyle="bold"
         app:layout_constraintBaseline_toBaselineOf="@+id/moFach1"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/guideline"
         tools:layout_constraintBaseline_toBaselineOf="@+id/moFach1" />
 
     <TextView
@@ -84,7 +113,7 @@
         android:textSize="11sp"
         android:textStyle="bold"
         app:layout_constraintBaseline_toBaselineOf="@+id/moFach2"
-        app:layout_constraintEnd_toEndOf="@+id/textView" />
+        app:layout_constraintStart_toStartOf="@+id/textView" />
 
     <TextView
         android:id="@+id/textView3"
@@ -94,7 +123,7 @@
         android:textSize="11sp"
         android:textStyle="bold"
         app:layout_constraintBaseline_toBaselineOf="@+id/moFach3"
-        app:layout_constraintEnd_toEndOf="@+id/textView" />
+        app:layout_constraintStart_toStartOf="@+id/textView" />
 
     <TextView
         android:id="@+id/textView4"
@@ -104,28 +133,44 @@
         android:textSize="11sp"
         android:textStyle="bold"
         app:layout_constraintBaseline_toBaselineOf="@+id/moFach4"
-        app:layout_constraintEnd_toEndOf="@+id/textView" />
+        app:layout_constraintStart_toStartOf="@+id/textView" />
 
     <EditText
         android:id="@+id/moFach5"
-        android:layout_width="300dp"
-        android:layout_height="46dp"
-        android:layout_marginTop="16dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
         android:ems="10"
         android:hint="Block 5"
         android:inputType="textPersonName"
-        app:layout_constraintStart_toStartOf="@+id/moFach1"
+        app:layout_constraintBottom_toTopOf="@+id/moFach6"
+        app:layout_constraintEnd_toStartOf="@+id/guideline"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/moFach4" />
 
     <EditText
         android:id="@+id/moFach6"
-        android:layout_width="300dp"
-        android:layout_height="46dp"
-        android:layout_marginTop="16dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="62dp"
         android:ems="10"
         android:hint="Block 6"
         android:inputType="textPersonName"
-        app:layout_constraintStart_toStartOf="@+id/moFach1"
+        app:layout_constraintBottom_toTopOf="@+id/guideline3"
+        app:layout_constraintEnd_toStartOf="@+id/guideline"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/moFach5" />
 
     <TextView
@@ -136,7 +181,7 @@
         android:textSize="11sp"
         android:textStyle="bold"
         app:layout_constraintBaseline_toBaselineOf="@+id/moFach5"
-        app:layout_constraintEnd_toEndOf="@+id/textView" />
+        app:layout_constraintStart_toStartOf="@+id/textView" />
 
     <TextView
         android:id="@+id/textView6"
@@ -146,7 +191,7 @@
         android:textSize="11sp"
         android:textStyle="bold"
         app:layout_constraintBaseline_toBaselineOf="@+id/moFach6"
-        app:layout_constraintEnd_toEndOf="@+id/textView" />
+        app:layout_constraintStart_toStartOf="@+id/textView" />
 
     <Button
         android:id="@+id/btnSave"
@@ -155,16 +200,32 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
         android:layout_centerVertical="true"
-        android:layout_marginStart="16dp"
-        android:layout_marginLeft="16dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
-        android:layout_marginBottom="16dp"
         android:onClick="Save"
         android:text="speichern"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline3" />
+
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.7838542" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.8518519" />
 
 
 </android.support.constraint.ConstraintLayout>

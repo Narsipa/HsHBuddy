@@ -28,14 +28,24 @@ public class DonnerstagActivity extends AppCompatActivity {
     private static final String Fach5 = "fach5Key";
     private static final String Fach6 = "fach6Key";
 
+    private void setupUIViews() {
+        toolbar = (Toolbar) findViewById(R.id.ToolbarDonnerstag);
+    }
+
+    private void initToolbar(){
+        setSupportActionBar(toolbar);
+        getSupportActionBar().setTitle("Donnerstag");
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+    }
+
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
+        setContentView(R.layout.donnerstag);
 
         setupUIViews();
-        //  initToolbar();
+        initToolbar();
 
-        setContentView(R.layout.donnerstag);
+
         fach1 = (EditText) findViewById(R.id.doFach1);
         fach2 = (EditText) findViewById(R.id.doFach2);
         fach3 = (EditText) findViewById(R.id.doFach3);
@@ -65,15 +75,7 @@ public class DonnerstagActivity extends AppCompatActivity {
         }
     }
 
-    private void setupUIViews() {
-        toolbar = (Toolbar) findViewById(R.id.ToolbarDonnerstag);
-    }
 
-    //private void initToolbar(){
-    //  setSupportActionBar(toolbar);
-    //getSupportActionBar().setTitle("mittwoch");
-    //  getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-    //}
 
     public void Save(View view) {
         String fe = fach1.getText().toString();

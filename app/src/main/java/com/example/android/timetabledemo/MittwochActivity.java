@@ -28,14 +28,24 @@ public class MittwochActivity extends AppCompatActivity {
     private static final String Fach5 = "fach5Key";
     private static final String Fach6 = "fach6Key";
 
+    private void setupUIViews() {
+        toolbar = (Toolbar) findViewById(R.id.ToolbarMittwoch);
+    }
+
+    private void initToolbar(){
+        setSupportActionBar(toolbar);
+        getSupportActionBar().setTitle("Mittwoch");
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+    }
+
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
+        setContentView(R.layout.mittwoch);
 
         setupUIViews();
-        //  initToolbar();
+        initToolbar();
 
-        setContentView(R.layout.mittwoch);
+
         fach1 = (EditText) findViewById(R.id.miFach1);
         fach2 = (EditText) findViewById(R.id.miFach2);
         fach3 = (EditText) findViewById(R.id.miFach3);
@@ -65,15 +75,7 @@ public class MittwochActivity extends AppCompatActivity {
         }
     }
 
-    private void setupUIViews() {
-        toolbar = (Toolbar) findViewById(R.id.ToolbarMittwoch);
-    }
 
-    //private void initToolbar(){
-    //  setSupportActionBar(toolbar);
-    //getSupportActionBar().setTitle("mittwoch");
-    //  getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-    //}
 
     public void Save(View view) {
         String fe = fach1.getText().toString();
