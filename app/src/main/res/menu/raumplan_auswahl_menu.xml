@@ -2,17 +2,16 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
-    <item android:id="@+id/pdf"
-        android:title="EG"
+    <item android:id="@+id/eg"
+        android:title="Erdgeschoss"
         app:showAsAction="never" />
 
-    <item android:id="@+id/pdf1"
-        android:title="1.OG"
+    <item android:id="@+id/erste_etage"
+        android:title="1. Etage"
         app:showAsAction="never" />
 
-    <item android:id="@+id/pdf2"
-        android:title="2.OG"
+    <item android:id="@+id/zweite_etage"
+        android:title="2. Etage"
         app:showAsAction="never" />
-
 
 </menu>

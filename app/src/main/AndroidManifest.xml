@@ -23,7 +23,7 @@
         <activity android:name=".WeekActivity" />
         <activity android:name=".RSSActivity"/>
         <activity android:name=".DayDetail" />
-        <activity android:name=".PDFOpener" />
+        <activity android:name=".RaumplanOpener" />
         <activity android:name=".PruefungsplanOpener" />
         <activity android:name=".MontagActivity"
                     android:windowSoftInputMode="adjustResize"/>
