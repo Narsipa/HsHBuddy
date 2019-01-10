@@ -26,15 +26,20 @@
         <activity android:name=".RaumplanOpener" />
         <activity android:name=".PruefungsplanOpener" />
         <activity android:name=".MontagActivity"
-                    android:windowSoftInputMode="adjustPan"/>
+                    android:windowSoftInputMode="adjustPan"
+                    android:screenOrientation="portrait"/>
         <activity android:name=".DienstagActivity"
-                    android:windowSoftInputMode="adjustPan" />
+                    android:windowSoftInputMode="adjustPan"
+                    android:screenOrientation="portrait"/>
         <activity android:name=".MittwochActivity"
-                    android:windowSoftInputMode="adjustPan" />
+                    android:windowSoftInputMode="adjustPan"
+                    android:screenOrientation="portrait"/>
         <activity android:name=".DonnerstagActivity"
-                    android:windowSoftInputMode="adjustPan"/>
+                    android:windowSoftInputMode="adjustPan"
+                    android:screenOrientation="portrait"/>
         <activity android:name=".FreitagActivity"
-                    android:windowSoftInputMode="adjustPan"/>
+                    android:windowSoftInputMode="adjustPan"
+                    android:screenOrientation="portrait"/>
 
     </application>
 
